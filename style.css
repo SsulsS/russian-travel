@@ -1,0 +1,17 @@
+
+.page{
+    background-color: #2A2C2F;
+
+}
+
+.header{
+}
+
+.lead{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
