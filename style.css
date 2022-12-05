@@ -5,6 +5,27 @@
 }
 
 .header{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__logo{
+    margin: 28px 0 0 48px;
+}
+
+.header__links{
+    border: 1px solid red;
+    margin: 46px 48px 0 0;
+    padding: 0 0;
+    display:;
+}
+
+.header__link{
+    border: 1px solid red;
+    margin: 0 18px 6px 0;
+    font-weight: normal;
 }
 
 .lead{
