@@ -1,31 +1,9 @@
 
 .page{
+    margin: auto;
     background-color: #2A2C2F;
-
-}
-
-.header{
+    width: 1280px;
     border: 1px solid red;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    font-family: 'Inter';   
 }
-
-.header__logo{
-    margin: 28px 0 0 48px;
-}
-
-.header__links{
-    border: 1px solid red;
-    margin: 46px 48px 0 0;
-    padding: 0 0;
-    display:;
-}
-
-.header__link{
-    border: 1px solid red;
-    margin: 0 18px 6px 0;
-    font-weight: normal;
-}
-
 

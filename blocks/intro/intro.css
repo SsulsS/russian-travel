@@ -1,0 +1,41 @@
+.intro{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+
+.intro__container{
+    border: 1px solid blue;
+    width: 80%;
+}
+
+.intro__title{
+    border: 1px solid blue;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;  
+    color: white;
+    margin: 0 0;
+}
+
+.intro__text{
+    border: 1px solid blue;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    color: white;
+    margin: 36px 0;
+    width: 690px;
+    height: 208px;
+}
+
+.intro__list{
+    border: 1px solid blue;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    margin: 0 0;
+}
