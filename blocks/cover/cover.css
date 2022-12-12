@@ -26,9 +26,9 @@
     top: 0;
     left: 0;
     z-index: -1;
-    opacity: 100%;
-    transition: opacity 0.5s ease 0s; 
-}
+        opacity: 100%;
+        transition: opacity 0.5s ease 0s; 
+    }
 
 .cover__title{
     font-weight: 900;
