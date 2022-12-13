@@ -1,0 +1,7 @@
+.header__links{
+    padding: 0 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}

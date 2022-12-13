@@ -5,32 +5,9 @@
     margin: 50px 0 0 0;
 }
 
-.intro__container{
-    width: 80%;
-}
-
-.intro__title{
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;  
-    color: white;
-    margin: 0 0;
-}
-
-.intro__text{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 163%;
-    color: white;
-    margin: 36px 0;
-    width: 690px;
-    height: 208px;
-}
-
-.intro__list{
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-    color: white;
-    margin: 0 0;
+@media screen and (max-width:425px) {
+    .intro{
+        width: 90%;
+        margin: 64px auto 0 auto;
+    }
 }
