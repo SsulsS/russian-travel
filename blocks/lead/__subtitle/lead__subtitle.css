@@ -5,7 +5,6 @@
     text-align: center;
     color: white;
     width: 640px;
-    height: 72px;
     margin: 32px auto 64px auto;
 }
 
@@ -15,7 +14,6 @@
         font-size: 16px;
         line-height: 20px;
         width: 288px;
-        height: 40px;
         margin: 16px auto 40px auto;
     }
 }
