@@ -1,0 +1,16 @@
+.place__paragraph-container{
+    margin-left: 40px;
+}
+
+@media screen and (max-width:425px) {
+    .place__paragraph-container{
+        width: 90%;
+        margin: 32px auto 0 auto;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
+    .place__paragraph-container{
+        margin-left: 28px;
+    }
+}

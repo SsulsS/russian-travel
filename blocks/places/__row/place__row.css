@@ -1,0 +1,18 @@
+.place__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 48px;
+    width: 100%;
+}
+
+.place__row:last-of-type{
+    margin: 0;
+}
+
+@media screen and (max-width:425px) {
+    .place__row{
+        flex-direction: column;
+        margin: 0;
+    }
+}
