@@ -1,7 +1,8 @@
 .intro__list-container{
     min-width: 288px;
-    height: 90px;
     align-self: flex-start;
     display: flex;
     flex-direction: column;
+    list-style: none;
+    padding: 0;
 }

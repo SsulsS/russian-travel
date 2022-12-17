@@ -5,6 +5,12 @@
     color: white;
     text-decoration: none;
     margin: 18px 18px 6px 0;
+    opacity: 100%;
+    transition: opacity 0.5s ease 0s; 
+}
+
+.header__lang-link:hover{
+    opacity: 80%;
 }
 
 .header__lang-link:last-of-type{
@@ -13,7 +19,6 @@
 
 @media screen and (max-width:425px) {
     .header__lang-link{
-        font-weight: 400;
         font-size: 18px;
         line-height: 20px;
     }
