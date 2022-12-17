@@ -1,5 +1,5 @@
 .cover{
-    width: 90%;
+    max-width: 1184px;
     min-height: 740px;
     margin: 92px auto;
     display: grid;
@@ -14,13 +14,14 @@
     }
 }
 
-@media screen and (min-width:425px) and (max-width:768px)  {
+@media screen and (min-width:426px) and (max-width:768px)  {
     .cover{
         min-height: 480px;
+        max-width: 768px;
     }
 }
 
-@media screen and (min-width:768px) and (max-width:1024px)  {
+@media screen and (min-width:769px) and (max-width:1024px)  {
     .cover{
         min-height: 640px;
     }
@@ -32,7 +33,7 @@
     }
 }
 
-@media screen and (min-width:425px) and (max-width:1024px)  {
+@media screen and (min-width:426px) and (max-width:1024px)  {
     .cover{
         margin: 90px auto;
     }

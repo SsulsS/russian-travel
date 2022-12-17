@@ -4,14 +4,14 @@
     line-height: 76px;
     text-align: center;
     color: white;
-    width: 560px;
+    max-width: 560px;
     padding: 245px 0 0 0;
     margin: 0 auto 0 auto;
 }
 
 @media screen and (max-width:425px) {
     .cover__title{
-        width: 250px;
+        max-width: 250px;
         font-size: 32px;
         line-height: 35px;
         margin:33px auto 0 auto;
@@ -28,5 +28,14 @@
 @media screen and (min-width:768px) and (max-width:1024px)  {
     .cover__title{
         padding-top: 195px;
+    }
+}
+
+
+
+@media screen and (min-width:426px) and (max-width:580px) {
+    .cover__title{
+        font-size: 3rem;
+        line-height: 50px;
     }
 }

@@ -6,3 +6,9 @@
     color: #AAAAAA;
     margin: 0 0 16px 0;
 }
+
+@media screen and (min-width:425px) and (max-width:768px) {
+    .place__url-heading{
+        max-width: 352px;
+    }
+}

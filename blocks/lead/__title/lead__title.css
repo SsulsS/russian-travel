@@ -4,7 +4,7 @@
     line-height: 100px;
     text-align: center;
     color: white;
-    width: 720px;
+    max-width: 720px;
     margin: 0 0;
 }
 
@@ -13,5 +13,19 @@
         font-size: 40px;
         line-height: 44px;
         width: 288px;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:700px) {
+    .lead__title{
+        font-size: 5rem;
+        line-height: 90px;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:580px) {
+    .lead__title{
+        font-size: 3rem;
+        line-height: 50px;
     }
 }
