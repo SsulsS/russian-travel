@@ -7,3 +7,6 @@
   * Методология БЭМ
   * Grid верстка
   * Флексбокс верстка
+  
+  
+  file:///C:/Users/user/dev/Projects/russian-travel/index.html#
