@@ -9,7 +9,7 @@
     }
 }
 
-@media screen and (min-width:425px) and (max-width:768px) {
+@media screen and (min-width:426px) and (max-width:768px) {
     .place__paragraph-container{
         margin-left: 28px;
     }
