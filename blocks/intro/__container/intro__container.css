@@ -3,6 +3,12 @@
     align-self: flex-start;
 }
 
+@media screen and (max-width:1024px) {
+    .intro__container{
+        width: 90%;
+    }
+}
+
 @media screen and (max-width:768px) {
     .intro__container{
         width: 100%;
@@ -14,11 +20,5 @@
     .intro__container{
         width: 100%;
         max-width: 720px;
-    }
-}
-
-@media screen and (min-width:769px) and (max-width:1024px) {
-    .intro__container{
-        width: 90%;
     }
 }

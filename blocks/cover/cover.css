@@ -7,34 +7,24 @@
     position: relative;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:1024px) {
     .cover{
-        min-height: 200px;
-        margin: 65px auto;
+        width: 100%;
+        margin: 90px auto;
+        min-height: 640px;
     }
 }
 
-@media screen and (min-width:426px) and (max-width:768px)  {
+@media screen and (max-width:768px)  {
     .cover{
         min-height: 480px;
         max-width: 768px;
     }
 }
 
-@media screen and (min-width:769px) and (max-width:1024px)  {
+@media screen and (max-width:425px) {
     .cover{
-        min-height: 640px;
-    }
-}
-
-@media screen and (max-width:1024px) {
-    .cover{
-        width: 100%;
-    }
-}
-
-@media screen and (min-width:426px) and (max-width:1024px)  {
-    .cover{
-        margin: 90px auto;
+        min-height: 200px;
+        margin: 65px auto;
     }
 }

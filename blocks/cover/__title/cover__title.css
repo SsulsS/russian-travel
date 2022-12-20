@@ -9,17 +9,19 @@
     margin: 0 auto 0 auto;
 }
 
+
+
+@media screen and (max-width:580px) {
+    .cover__title{
+        font-size: 3rem;
+        line-height: 50px;
+    }
+}
+
 @media screen and (max-width:425px) {
     .cover__title{
         max-width: 250px;
         font-size: 32px;
         line-height: 35px;
-    }
-}
-
-@media screen and (min-width:426px) and (max-width:580px) {
-    .cover__title{
-        font-size: 3rem;
-        line-height: 50px;
     }
 }
