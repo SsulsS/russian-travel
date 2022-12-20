@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (min-width:42px) and (max-width:768px) {
+@media screen and (min-width:426px) and (max-width:768px) {
     .place__website{
         margin-left: 28px;
         max-width: 352px;
