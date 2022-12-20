@@ -16,13 +16,13 @@
     }
 }
 
-@media screen and (min-width:426px) and (max-width:640px) {
+@media screen and (max-width:640px) {
     .place__paragraph{
         font-size: 12px;
     }
 }
 
-@media screen and (min-width:426px) and (max-width:500px) {
+@media screen and (max-width:500px) {
     .place__paragraph{
         font-size: 10px;
     }

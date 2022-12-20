@@ -4,16 +4,16 @@
     align-self: flex-end;
 }
 
+@media screen and (max-width:768px) {
+    .place__website{
+        margin-left: 28px;
+        max-width: 352px;
+    }
+}
+
 @media screen and (max-width:425px) {
     .place__website{
         margin: 32px auto;
         width: 90%;
-    }
-}
-
-@media screen and (min-width:426px) and (max-width:768px) {
-    .place__website{
-        margin-left: 28px;
-        max-width: 352px;
     }
 }
