@@ -16,7 +16,7 @@
     }
 }
 
-@media screen and (min-width:426px) and (max-width:768px) {
+@media screen and (min-width:42px) and (max-width:768px) {
     .place__title{
         font-size: 42px;
         line-height: 46px;
@@ -30,14 +30,14 @@
     }
 }
 
-@media screen and (min-width:426px) and (max-width:640px) {
+@media screen and (min-width:42px) and (max-width:640px) {
     .place__title{
         font-size: 35px;
         max-width: 220px;
     }
 }
 
-@media screen and (min-width:426px) and (max-width:500px) {
+@media screen and (min-width:42px) and (max-width:500px) {
     .place__title{
         font-size: 35px;
         max-width: 190px;
